@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-doorbell",
+  "version": "0.0.01",
+  "description": "doorbell plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Sam Fox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Samfox2/homebridge-doorbell.git"
+  },
+  "dependencies": {
+  }
+}
