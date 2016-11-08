@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "XX:XX:XX:XX:XX:XX",
+        "port": 51827,
+        "pin": "xxx-xx-xxx"
+    },
+
+    "description": "This is an example configuration file . You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "platforms": [],
+
+    "accessories": [
+        {
+            "accessory": "Doorbell",
+            "name": "DoorBell",
+            "up_url": "http://1.2.3.4/window/up",
+            "down_url": "http://1.2.3.4/window/down",
+            "http_method": "PUT"
+        }
+    ]
+}
