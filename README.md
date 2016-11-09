@@ -15,7 +15,7 @@ sudo npm install -g homebridge
 ```sh
 sudo npm install -g git+https://github.com/Samfox2/homebridge-doorbell.git
 ```
-2. Configure plugin:
+3. Configure plugin:
 ```sh
  Update your configuration file. See sample-config.json in this repository for a sample. 
 ```
