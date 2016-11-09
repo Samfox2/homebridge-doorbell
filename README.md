@@ -32,6 +32,7 @@ Add the accessory in `config.json` in your home directory inside `.homebridge`.
 
 ## Note
 Currently the plugin only emulates the doorbell with the identify command.
+If placed in a room with a camera it sends a notification with a snapshot/stream to your ios device after pushing the "identify" button in a homekit app.
 
 Feel free to contribute to make this a better plugin!
 
