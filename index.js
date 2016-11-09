@@ -28,16 +28,10 @@ function DoorbellAccessory(log, config) {
     var targetChar = this.service
     .getCharacteristic(Characteristic.ProgrammableSwitchEvent);
 
-    targetChar.setValue(1);
-    this.log("Ding");
-    setTimeout(function(){targetChar.setValue(0);}, 10000);
-    this.log("Dong");
-
-
-    //setTimeout(function() {
-    //    this.log("Ding Dong");
-    //    this.service.getCharacteristic(Characteristic.ProgrammableSwitchEvent).setValue(1);
-    //}.bind(this), 10000);
+    setTimeout(function() {
+        this.log("Ding Dong");
+        this.service.getCharacteristic(Characteristic.ProgrammableSwitchEvent).setValue(1);
+    }.bind(this), 10000);
 }
 
 DoorbellAccessory.prototype.getSwitchState = function(callback) {
