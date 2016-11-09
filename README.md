@@ -7,15 +7,15 @@
 If you are new to Homebridge, please first read the Homebridge [documentation](https://www.npmjs.com/package/homebridge).
 If you are running on a Raspberry, you will find a tutorial in the [homebridge-punt Wiki](https://github.com/cflurin/homebridge-punt/wiki/Running-Homebridge-on-a-Raspberry-Pi).
 
-1. Install homebridge:
+1 Install homebridge:
 ```sh
 sudo npm install -g homebridge
 ```
-2. Install homebridge-doorbell:
+2 Install homebridge-doorbell:
 ```sh
 sudo npm install -g git+https://github.com/Samfox2/homebridge-doorbell.git
 ```
-3. Configure plugin:
+3 Configure plugin:
 ```sh
  Update your configuration file. See sample-config.json in this repository for a sample. 
 ```
