@@ -21,13 +21,18 @@ sudo npm install -g git+https://github.com/Samfox2/homebridge-doorbell.git
 ```
 ## Configuration
 
-Add the accessory in `config.json` in your home directory inside `.homebridge`.
+Add the platform in `config.json` in your home directory inside `.homebridge`.
 
 ```js
-   {
-      "accessory": "Doorbell",
-      "name": "Doorbell Front"
-    }
+{
+	    "platform": "Doorbell",
+	    "doorbells": [
+	    {
+            "name": "Doorbell Front",
+            "mac": "21:11:11:11:21:11"
+	    }
+	    ]
+}
 ```
 
 ## Note
