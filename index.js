@@ -11,7 +11,7 @@ function DoorbellPlatform(log, config) {
   this.log = log;
   
   // configuration vars
-  this.devices = config["devices"];
+  this.devices = config["doorbells"];
   
   log("Starting discovery...");
 }
@@ -21,7 +21,7 @@ DoorbellPlatform.prototype = {
     var foundAccessories = [];
     var count = this.devices.length;
     
-    for(index=0; index< count; ++index){
+    for(index = 0; index < count; index++){
 		  var accessory  = new DoorbellAccessory(this.log, this.devices[index]);
 		  foundAccessories.push(accessory);
 	  }
