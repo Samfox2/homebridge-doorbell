@@ -28,8 +28,7 @@ Add the platform in `config.json` in your home directory inside `.homebridge`.
 	    "platform": "Doorbell",
 	    "doorbells": [
 	    {
-            "name": "Doorbell Front",
-            "mac": "21:11:11:11:21:11"
+            "name": "Doorbell Front"
 	    }
 	    ]
 }
