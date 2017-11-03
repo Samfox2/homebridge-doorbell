@@ -2,6 +2,9 @@
 
 `homebridge-doorbell` is a plugin for Homebridge.
 
+Since the API has changed doorbell service does not work without an attached camera.
+Please use https://github.com/Samfox2/homebridge-videodoorbell instead.
+
 ## Installation
 
 If you are new to Homebridge, please first read the Homebridge [documentation](https://www.npmjs.com/package/homebridge).
